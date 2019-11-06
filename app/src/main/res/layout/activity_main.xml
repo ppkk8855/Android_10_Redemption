@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2018年統一發票對獎APP" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="請選擇月份" />
+
+        <Button
+            android:id="@+id/btn1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 1,2月發票" />
+
+        <Button
+            android:id="@+id/btn3_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 3,4月發票" />
+
+        <Button
+            android:id="@+id/btn5_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 5,6月發票" />
+
+        <Button
+            android:id="@+id/btn7_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 7,8月發票" />
+
+        <Button
+            android:id="@+id/btn9_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 9,10月發票" />
+
+        <Button
+            android:id="@+id/btn11_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 11,12月發票" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
